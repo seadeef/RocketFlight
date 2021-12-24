@@ -14,5 +14,14 @@ Simply execute `main.py` to get started -- no external dependencies. You will be
 7. The number of clustered rockets
 8. A [RASP](https://www.thrustcurve.org/info/raspformat.html) engine file
 
+## Output
+1. Max height
+2. Max velocity
+3. Max acceleration
+4. Ascent duration
+5. Descent duration
+6. Ideal parachute ejection delay
+7. Velocity at ground impact
+
 ## Engine file
 Find your motor on [thrustcurve.org](https://www.thrustcurve.org/), download the engine file in RASP format, and place it in the same directory as `main.py`. Any commented lines should start with `;`, the header line should have 7 values, and any data points should be indented with spaces.
